@@ -1,0 +1,65 @@
+[gd_scene load_steps=3 format=3 uid="uid://boh65nhx50vb"]
+
+[ext_resource type="PackedScene" uid="uid://cy737brx6cscd" path="res://scenes/morpion.tscn" id="1_i14d1"]
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_tgmqj"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tgmqj")
+
+[node name="background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0431373, 0.239216, 0.239216, 1)
+
+[node name="game_container" type="Container" parent="."]
+layout_mode = 2
+offset_bottom = 40.0
+
+[node name="line1" type="ColorRect" parent="game_container"]
+layout_mode = 2
+
+[node name="line2" type="ColorRect" parent="game_container"]
+layout_mode = 2
+
+[node name="line3" type="ColorRect" parent="game_container"]
+layout_mode = 2
+
+[node name="line4" type="ColorRect" parent="game_container"]
+layout_mode = 2
+
+[node name="morpion1" parent="game_container" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="morpion2" parent="game_container" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="morpion3" parent="game_container" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="morpion4" parent="game_container" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="morpion5" parent="game_container" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="morpion6" parent="game_container" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="morpion7" parent="game_container" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="morpion8" parent="game_container" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="morpion9" parent="game_container" instance=ExtResource("1_i14d1")]
+layout_mode = 2

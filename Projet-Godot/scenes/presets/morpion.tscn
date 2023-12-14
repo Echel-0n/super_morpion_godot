@@ -1,0 +1,113 @@
+[gd_scene load_steps=2 format=3 uid="uid://cy737brx6cscd"]
+
+[ext_resource type="Script" path="res://scenes/presets/morpion.gd" id="1_e7h1h"]
+
+[node name="Morpion" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_e7h1h")
+
+[node name="background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.101961)
+
+[node name="background2" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.2)
+
+[node name="game_container" type="Container" parent="."]
+layout_mode = 0
+offset_bottom = 40.0
+
+[node name="line1" type="ColorRect" parent="game_container"]
+layout_mode = 2
+
+[node name="line2" type="ColorRect" parent="game_container"]
+layout_mode = 2
+
+[node name="line3" type="ColorRect" parent="game_container"]
+layout_mode = 2
+
+[node name="line4" type="ColorRect" parent="game_container"]
+layout_mode = 2
+
+[node name="case1" type="TextureButton" parent="game_container"]
+layout_mode = 2
+focus_mode = 0
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="case2" type="TextureButton" parent="game_container"]
+layout_mode = 2
+focus_mode = 0
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="case3" type="TextureButton" parent="game_container"]
+layout_mode = 2
+focus_mode = 0
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="case4" type="TextureButton" parent="game_container"]
+layout_mode = 2
+focus_mode = 0
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="case5" type="TextureButton" parent="game_container"]
+layout_mode = 2
+focus_mode = 0
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="case6" type="TextureButton" parent="game_container"]
+layout_mode = 2
+focus_mode = 0
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="case7" type="TextureButton" parent="game_container"]
+layout_mode = 2
+focus_mode = 0
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="case8" type="TextureButton" parent="game_container"]
+layout_mode = 2
+focus_mode = 0
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="case9" type="TextureButton" parent="game_container"]
+layout_mode = 2
+focus_mode = 0
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="result_background" type="ColorRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.6)
+
+[node name="result_icon" type="TextureRect" parent="."]
+visible = false
+layout_mode = 2
+mouse_filter = 2
+expand_mode = 2
+stretch_mode = 5

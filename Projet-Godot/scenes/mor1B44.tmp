@@ -1,0 +1,50 @@
+[gd_scene load_steps=2 format=3 uid="uid://cy737brx6cscd"]
+
+[ext_resource type="Script" path="res://scripts/morpion.gd" id="1_x1xhk"]
+
+[node name="Morpion" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_x1xhk")
+
+[node name="game_container" type="Container" parent="."]
+offset_bottom = 40.0
+
+[node name="line1" type="ColorRect" parent="game_container"]
+layout_mode = 2
+
+[node name="line2" type="ColorRect" parent="game_container"]
+layout_mode = 2
+
+[node name="line3" type="ColorRect" parent="game_container"]
+layout_mode = 2
+
+[node name="line4" type="ColorRect" parent="game_container"]
+layout_mode = 2
+
+[node name="case1" type="TextureButton" parent="game_container"]
+layout_mode = 2
+
+[node name="case2" type="TextureButton" parent="game_container"]
+layout_mode = 2
+
+[node name="case3" type="TextureButton" parent="game_container"]
+layout_mode = 2
+
+[node name="case4" type="TextureButton" parent="game_container"]
+layout_mode = 2
+
+[node name="case5" type="TextureButton" parent="game_container"]
+layout_mode = 2
+
+[node name="case6" type="TextureButton" parent="game_container"]
+layout_mode = 2
+
+[node name="case7" type="TextureButton" parent="game_container"]
+layout_mode = 2
+
+[node name="case8" type="TextureButton" parent="game_container"]
+layout_mode = 2
+
+[node name="case9" type="TextureButton" parent="game_container"]
+layout_mode = 2

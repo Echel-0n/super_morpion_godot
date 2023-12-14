@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=3 uid="uid://boh65nhx50vb"]
+
+[ext_resource type="PackedScene" uid="uid://cy737brx6cscd" path="res://scenes/morpion.tscn" id="1_i14d1"]
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_tgmqj"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tgmqj")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 1
+offset_right = 8.0
+offset_bottom = 8.0
+columns = 3
+
+[node name="Morpion0" parent="GridContainer" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="Morpion1" parent="GridContainer" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="Morpion2" parent="GridContainer" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="Morpion3" parent="GridContainer" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="Morpion4" parent="GridContainer" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="Morpion5" parent="GridContainer" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="Morpion6" parent="GridContainer" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="Morpion7" parent="GridContainer" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="Morpion8" parent="GridContainer" instance=ExtResource("1_i14d1")]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "1"
